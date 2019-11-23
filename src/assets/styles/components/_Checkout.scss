@@ -1,0 +1,103 @@
+.credit__card__form {
+    overflow: hidden;
+    color: #3C3C3B;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    form {
+        flex-direction: column;
+        display: flex;
+        width: 25%;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.credit__card__form__heading h2 {
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    color: #4c4e56;
+}
+.form__control {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+    width: 250px;
+}
+
+.card_type{
+    width: 50px;
+}
+
+.form__btn {
+	font-family: "Open Sans";
+    font-weight: 400;
+    padding: 6px;
+    background-color: #77529E;
+    color: white;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    transition: all .2s linear;
+    
+	
+	@media screen and (max-width: $break) {
+		margin: 0 auto;
+		margin-top: 60px;
+		margin-bottom: 50px;
+    	width: 200px;
+  	}
+	
+	&:hover {
+		background-color: $accent-color;
+		transition: all .2s linear;
+    }
+    small {
+        font-size: 7px;
+        text-align: center;
+    }
+}
+
+.otro{
+    background-color: forestgreen;
+}
+/**
+* Shows how you can use CSS to style your Element's container.
+*/
+.MyCardElement {
+    height: 40px;
+    padding: 10px 12px;
+    width: 100%;
+    color: #32325d;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+  }
+  
+  .MyCardElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  
+  .MyCardElement--invalid {
+    border-color: #fa755a;
+  }
+  
+  .MyCardElement--webkit-autofill {
+    background-color: #fefde5 !important;
+  }
+
+  .Checkout {
+    .block {
+        display: block;
+    }
+  }

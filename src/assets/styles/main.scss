@@ -1,0 +1,28 @@
+@import "./bootstrap";
+@import "./shared/button";
+@import "./components/Header";
+@import "./components/Card";
+@import "./components/Login";
+@import "./components/Products";
+@import "./components/Hero";
+@import "./components/Categories";
+@import "./components/Favorite";
+@import "./components/Footer";
+@import "./components/Cart";
+@import "./components/WishList";
+@import "./components/NotFound";
+@import "./components/UserProfile";
+@import "./components/PurchaseMade";
+@import "./components/Checkout";
+@import "./components/Stores";
+@import "./components/Animation";
+@import "./components/Modal";
+@import url('<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">');
+
+ body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:$gb;
+    // height: 100vh;
+    width: 100%;
+}
+

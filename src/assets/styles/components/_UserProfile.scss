@@ -1,0 +1,76 @@
+.user-columns{
+display: flex;
+width: 100%;
+height: auto;
+&__left{
+    width: 50%;
+    text-align: center;
+}
+&__profile{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 100%;
+    margin-top: 3rem;
+}
+&__name{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+&__rigth{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+&__data{
+background-color: #E9E9E9;
+width: 80%;
+height:auto;
+margin-top: 3rem;
+margin-bottom:2rem;
+}
+&__form{
+    width: 100%;
+    padding-top: 2rem;
+    input[type='text'], [type='email'], [type='date']{
+        background: none;
+        border: none;
+        border-bottom: solid 2px #EFA5AB;
+        color: #474544;
+        font-size: 1.000em;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin: 0em 0 1.875em 0;
+        padding: 0 0 0.875em 0;
+        text-transform: uppercase;
+        width: 70%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    input[type='text']:focus, [type='email']:focus, [type='date']:focus{
+        outline: none;
+        padding: 0 0 0.875em 0;
+    }
+  }
+  &__btn{
+      width: 50%;
+  }
+}
+
+.user-address{
+    width: 80%;
+    background-color: #E9E9E9;
+    color: $dark-color;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

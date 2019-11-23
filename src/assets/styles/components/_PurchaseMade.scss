@@ -1,0 +1,43 @@
+.purchase-made {
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: #7436A0;
+    font-family: 'Anonymous Pro';
+
+    &__content{
+        text-align: center;
+        color: #3c3c3b;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+}
+
+/*animacion global*/
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(116,54,160,.75);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 14em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(116,54,160,.75);}
+  to{border-right-color: transparent;}
+}

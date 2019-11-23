@@ -1,0 +1,13 @@
+/*
+ * Limpia los estilos del botón por defecto facilitando la creación de botones
+ * genéricos
+ */
+
+button {
+    appearance: none;
+    color: inherit;
+    background: transparent;
+    outline: none;
+    border: 0;
+    width: auto;
+}
